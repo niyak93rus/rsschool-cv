@@ -1,11 +1,19 @@
-1. **Nikolay Yakovlev**
-2. **Contacts:**
-- Phone: +79923321384; 
+# MY CV 
+## **Nikolay Yakovlev**
+## **Contacts:**
+- Phone: +79923321384
 - Email: n.yakovlev96@gmail.com
 - Telegram: @n.yakovlev111
-3. **About me:** Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
-4. **Skills:** Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-5. **Code examples:** Примеры кода
-6. **Work experience:** Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
-7. **Education:** Образование (включая курсы, семинары, лекции, онлайн-обучение)
-8. **English:** B2 (Upper-Intermediate). Practised during my work as a receptionist, also had an individual and group tutoring experience.
+- GitHub: https://github.com/niyak93rus
+## **About me:** 
+I am 28 years old, I began to dream about becoming a developer a couple of years ago. I am very enthusiastic about learning new, especially about technologies and how they can change people's lives. The main reason for me to learn frontend and to look for new projects in it is that it can immediately reward you with the outcomes of your work and knowledge. Previously I have been working as a salesman and then as a receptionist, so I know what people value in products and in different services. I am a good team-worker, I am not overwhelmed by challenges and new ways of work. However, I am also capable of doing routine actions for a long time if it is required, but at the same time I look forward to improve the usual ways of doing them.
+## **Skills:** Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+## **Code examples:** 
+Coming soon
+## **Work experience:** 
+No relevant work experience yet. Did a few learning projects (see in my GitHub, link at the top).
+## **Education:**
+- CS50. Introduction to the intellectual enterprises of computer science and the art of programming (In Progress, doing week 9 and then FInal Project), 2021
+- The Rolling Scopes School (In Progress), 2021
+## **English:** 
+B2 (Upper-Intermediate). Practised during my work as a receptionist, also had an individual and group tutoring experience.
