@@ -1,0 +1,9 @@
+.markdown {
+    display: block;
+}
+
+.footer {
+    position: relative;
+    height: 10%;
+    background-color: #4c7ddf;
+  }
