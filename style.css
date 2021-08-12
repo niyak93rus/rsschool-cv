@@ -1,9 +1,22 @@
-.markdown {
-    display: block;
+.container-centered {
+  margin: auto;
+  display: inline-block;
 }
 
-.footer {
-    position: relative;
-    height: 10%;
-    background-color: #4c7ddf;
+.column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after the columns */
+  .footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
