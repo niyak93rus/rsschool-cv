@@ -1,5 +1,5 @@
 html{
-  background: grey;
+  background: url("neon.jpg") fixed;
 }
 
 * {
@@ -10,7 +10,34 @@ body {
   width: 60%;
   padding: 10px;
   font-family: 'Inter', sans-serif;
+  color: #333333;
   background: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 18px;
+  font-variant: small-caps;
 }
 
 ul { 
@@ -22,10 +49,8 @@ a {
 }
 
 .wrapper {
-  /* Take the remaining height */
   flex-grow: 1;
 
-  /* Layout the left sidebar, main content and right sidebar */
   display: flex;
   flex-direction: row;
   margin-bottom: 0;
