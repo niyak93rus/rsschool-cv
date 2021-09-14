@@ -19,7 +19,23 @@
 - Python (beginner)
 - SQL
 ## **Code examples:** 
-Coming soon
+Code for Codewars kata "Square Every Digit": this function squares every digit of a number and concatenate them.
+For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+
+```
+function squareDigits(num){
+  let num_string = num.toString();
+  let square = 0;
+  let new_string = '';
+
+
+  for(let i = 0; i < num_string.length; i++){
+    console.log(square = Math.pow(parseInt(num_string[i], 10), 2));
+    new_string = new_string + square;
+  }
+  return parseInt(new_string, 10);
+}
+```
 ## **Work experience:** 
 No relevant work experience yet. Did a few learning projects (see my GitHub, link at the top).
 ## **Education:**
