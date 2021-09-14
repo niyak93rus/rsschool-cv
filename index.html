@@ -30,7 +30,7 @@
                     <h3>Junior Frontend Developer</h3>
                 </div>
                 <div class="main-info">
-                    <h4 class="divider">Info</h4>
+                    <h4 class="divider">Contacts</h4>
                     <h5>Location</h5>
                     <p>Yekaterinburg, Russia</p>
                     <h5>Phone</h5>
@@ -47,58 +47,59 @@
                 </div>
             </main>
         </div>
-        <div class="column right-col">
-            <!-- Top Navigation Menu -->
-            <div class="topnav">
-                <a href="#about" class="active">Curriculum Vitae</a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="myLinks">
-                    <a href="#skills">Skills</a>
-                    <a href="#code">Code examples</a>
-                    <a href="#experience">Work experience</a>
-                    <a href="#education">Education</a>
-                    <a href="#english">English</a>
+        <div class="wrapper">
+            <div class="column right-col">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a href="#about" class="active">More about me</a>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="#skills">Skills</a>
+                        <a href="#code">Code examples</a>
+                        <a href="#experience">Work experience</a>
+                        <a href="#education">Education</a>
+                        <a href="#english">English</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-            <script>
-                /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-                function myFunction() {
-                    var x = document.getElementById("myLinks");
-                    if (x.style.display === "block") {
-                        x.style.display = "none";
-                    } else {
-                        x.style.display = "block";
+                <script>
+                    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "block") {
+                            x.style.display = "none";
+                        } else {
+                            x.style.display = "block";
+                        }
                     }
-                }
-            </script>
-            </nav>
-            <article class="about-me" id="about">
-                <h4 class="divider">About me</h4>
-                <ul>
-                    <li>I'm 28 years old</li>
-                    <li>Love to learn</li>
-                    <li>Love to make life around better</li>
-                    <li>Team player</li>
-                </ul>
-            </article>
-            <div class="skills" id="skills">
-                <h4 class="divider">Skills</h4>
-                <ul class="skills-list">
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>GIT, Visual Studio Code</li>
-                </ul>
-            </div>
-            <div class="code-examples" id="code">
-                <h4 class="divider">Code examples</h4>
-                <p>Code for Codewars kata "Square Every Digit": this function squares every digit
-                    of a number and concatenate them. For example, if we run 9119 through
-                    the function, 811181 will come out, because 92 is 81 and 12 is 1.
-                </p>
-                <pre>
+                </script>
+                </nav>
+                <article class="about-me" id="about">
+                    <h4 class="divider">About me</h4>
+                    <ul>
+                        <li>I'm 28 years old</li>
+                        <li>Love to learn</li>
+                        <li>Love to make life around better</li>
+                        <li>Team player</li>
+                    </ul>
+                </article>
+                <div class="skills" id="skills">
+                    <h4 class="divider">Skills</h4>
+                    <ul class="skills-list">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>GIT, Visual Studio Code</li>
+                    </ul>
+                </div>
+                <div class="code-examples" id="code">
+                    <h4 class="divider">Code examples</h4>
+                    <p>Code for Codewars kata "Square Every Digit": this function squares every digit
+                        of a number and concatenate them. For example, if we run 9119 through
+                        the function, 811181 will come out, because 92 is 81 and 12 is 1.
+                    </p>
+                    <pre>
                         <code> 
     function squareDigits(num){
     let num_string = num.toString();
@@ -112,28 +113,28 @@
     return parseInt(new_string, 10);
                         </code>
                     </pre>
-            </div>
-            <div class="work-experience" id="experience">
-                <h4 class="divider">Work experience</h4>
-                <p>No relevant work experience yet. Did a few learning projects (see my GitHub, link below).</p>
-            </div>
-            <div class="education" id="education">
-                <h4 class="divider">Education</h4>
-                <ul>
-                    <li>Ural Federal University (Russia, Yekaterinburg). Institute: Ural Institute of Humanities.
-                        Specialty: socio-cultural service and tourism. Finished in 2015.</li>
-                    <li>CS50. Introduction to the intellectual enterprises of computer science and the art of
-                        programming (In Progress, doing week 9 and then FInal Project), 2021</li>
-                    <li>The Rolling Scopes School (In Progress), 2021</li>
-                </ul>
-            </div>
-            <div class="english" id="english">
-                <h4 class="divider">English</h4>
-                <p>B2 (Upper-Intermediate). Practised during my work as a receptionist, also had
-                    an individual and group tutoring experience (as a tutor myself).</p>
+                </div>
+                <div class="work-experience" id="experience">
+                    <h4 class="divider">Work experience</h4>
+                    <p>No relevant work experience yet. Did a few learning projects (see my GitHub, link below).</p>
+                </div>
+                <div class="education" id="education">
+                    <h4 class="divider">Education</h4>
+                    <ul>
+                        <li>Ural Federal University (Russia, Yekaterinburg). Institute: Ural Institute of Humanities.
+                            Specialty: socio-cultural service and tourism. Finished in 2015.</li>
+                        <li>CS50. Introduction to the intellectual enterprises of computer science and the art of
+                            programming (In Progress, doing week 9 and then FInal Project), 2021</li>
+                        <li>The Rolling Scopes School (In Progress), 2021</li>
+                    </ul>
+                </div>
+                <div class="english" id="english">
+                    <h4 class="divider">English</h4>
+                    <p>B2 (Upper-Intermediate). Practised during my work as a receptionist, also had
+                        an individual and group tutoring experience (as a tutor myself).</p>
+                </div>
             </div>
         </div>
-
     </div>
     <footer>
         <a href="https://github.com/niyak93rus" target=”_blank”><img src="GitHub-Mark-64px.png" alt="github logo"
