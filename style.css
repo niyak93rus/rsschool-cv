@@ -1,64 +1,89 @@
-html {
-  font-size: 18px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-  font-family: 'Karla', sans-serif;
-  background-color: #406E8E;
+html{
+  background: url("neon.jpg") fixed;
 }
 
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0 auto;
-  width: 85%;
-  background-color: #8EA8C3;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  color: #333333;
+  background: white;
 }
 
-h1 {
-  font-size: 60px;
-  color: #98c4ff
+h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 5px;
 }
 
-p,li,h2,h3,ul {
-  color: #161925;
-  font-size: 24px;
-  line-height: 2;
-  letter-spacing: 0.5px;
-}
-
-.column {
-    float: left;
-    width: 33%;
-}
-
-header,footer {
-  background-color: #23395B;
-}
+h3 {
+  margin-top: 5px;
   
-  /* Clear floats after the columns */
-.basement:after {
-    content: "";
-    display: table;
-    clear: both;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
 }
 
-
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+h4 {
+  font-size: 16px;
+  line-height: 18px;
+  font-variant: small-caps;
 }
 
-.two-columns {
+ul { 
+  padding-left: 10;
+}
+
+a {
+  color: #333333;
+}
+
+.wrapper {
+  flex-grow: 1;
+
   display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
 }
 
-.content-column {
-  flex: 50%;
+.left-col {
+  margin: 10px 0 10px;
+  width: 25%;
+  background: rgb(245, 245, 245);
+  padding: 20px;
+  margin-bottom: 0;
 }
 
-  @media screen and (max-width: 600px) {
-    .content-column {
-      width: 100%;
-    }
-  }
+.right-col {
+  /* Take the remaining width */
+  flex-grow: 1;
+  margin: 20px;
+  padding: 20px;
+}
 
+.divider {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
 
+footer {
+  margin-top: 0;
+  background: rgb(247, 247, 247);
+  background: linear-gradient(90deg, rgb(245, 245, 245) 29%, rgb(186, 187, 187) 92%, rgb(172, 172, 175) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
